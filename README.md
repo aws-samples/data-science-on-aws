@@ -1,11 +1,10 @@
-## My Project
+# Data Science on AWS
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+## Description
+This sample code shows how to
+* Ingest data into S3 using Amazon Athena, AWS Glue, and the Parquet data format
+* Visualize data with pandas, matplotlib on SageMaker notebooks
+* Perform feature engineering on a raw dataset using Scikit-Learn and SageMaker Processing Jobs
 
 ## Security
 
