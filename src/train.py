@@ -32,15 +32,7 @@ def parse_args():
     parser.add_argument("--epochs", type=int, default=2)
     parser.add_argument("--weight_decay", type=float, default=0.01)
     parser.add_argument("--learning_rate", type=float, default=0.00003)
-    parser.add_argument("--train_steps_per_epoch", type=int, default=None)
-    parser.add_argument("--validation_steps", type=int, default=None)
-    parser.add_argument("--test_steps", type=int, default=None)
-    parser.add_argument("--enable_sagemaker_debugger", type=eval, default=False)
-    parser.add_argument("--run_validation", type=eval, default=False)
-    parser.add_argument("--run_test", type=eval, default=False)
-    parser.add_argument("--run_sample_predictions", type=eval, default=False)
-    parser.add_argument("--enable_tensorboard", type=eval, default=False)
-    parser.add_argument("--enable_checkpointing", type=eval, default=False)
+    parser.add_argument("--train_sample_percentage", type=float, default=0.01)
     parser.add_argument("--model_checkpoint", type=str, default=None)    
     parser.add_argument("--output_data_dir", type=str, default=os.environ["SM_OUTPUT_DATA_DIR"])  # This is unused
     
@@ -77,10 +69,11 @@ if __name__ == "__main__":
     ).with_format("torch")
     print(f'loaded dataset: {tokenized_dataset}')
     
-    # train the model
-    # (remove this filtering if you want to train for a longer period)
-    sample_tokenized_dataset = tokenized_dataset.filter(lambda example, indice: indice % 100 == 0, with_indices=True)
+    # sample the dataset for training
+    skip_inds = int(1 / args.train_sample_percentage)
+    sample_tokenized_dataset = tokenized_dataset.filter(lambda example, indice: indice % skip_inds == 0, with_indices=True)
 
+    # train the model
     output_dir = args.checkpoint_base_path
     training_args = TrainingArguments(
         output_dir=output_dir,
