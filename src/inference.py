@@ -196,6 +196,8 @@ def transform_fn(model_objs: list, input_data: bytes, content_type: str, accept:
         except Exception:
             logging.exception("Failed to do inference")
             raise
+
+    # TODO: Incorporate JSON implementation for more inference options here
     # elif content_type == APPLICATION_JSON:
     #     try:
     #         payload = json.loads(input_data)
@@ -221,6 +223,7 @@ def transform_fn(model_objs: list, input_data: bytes, content_type: str, accept:
     #     except Exception:
     #         logging.exception("Failed to do inference")
     #         raise
+
     else:
         raise ValueError('{{"error": "unsupported content type {}"}}'.format(content_type or "unknown"))
     if accept.endswith(VERBOSE_EXTENSION):
