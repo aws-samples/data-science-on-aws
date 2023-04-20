@@ -4,15 +4,21 @@
 
 This workshop shows AWS users how to use Amazon SageMaker and other associated services to build, train, and deploy generative AI models. These labs go through data science topics such as data processing at scale, model fine-tuning, real-time model deployment, and MLOps practices all through a generative AI lens.
 
-In this workflow, we will use the [Amazon Customer Reviews Dataset](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) for labs related to data processing as it contains a very large corpus of ~150 million customer reviews. This is useful for showcasing SageMaker's distributed processing abilities which can be extended to many large datasets. After the data processing sections, we will build our FLAN-T5 based NLP model using the [dialogsum](https://huggingface.co/datasets/knkarthick/dialogsum) dataset from HuggingFace which contains ~15k examples of dialogue with associated summarizations.
+Distributed data processing
+---------------------------
+In this workflow, we will use the [Amazon Customer Reviews Dataset](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) for labs related to data processing as it contains a very large corpus of ~150 million customer reviews. This is useful for showcasing SageMaker's distributed processing abilities which can be extended to many large datasets. 
+
+Fine-tuning FLAN-T5 Generative AI model
+---------------------------------------
+After the data processing sections, we will build our FLAN-T5 based NLP model using the [dialogsum](https://huggingface.co/datasets/knkarthick/dialogsum) dataset from HuggingFace which contains ~15k examples of dialogue with associated summarizations.
 
 ## Table of Contents
 
 0. [Lab overview](./00_Overview.ipynb)
 1. [Setup workshop dependencies](./01_Setup_Dependencies.ipynb)
-2. [Register parquet data in S3 using AWS Glue and Amazon Athena](./02_Register_Parquet_Glue_Athena.ipynb)
-3. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./03_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
-4. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./04_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
+[HIDDEN] 2. [Register parquet data in S3 using AWS Glue and Amazon Athena](./wip/02_Register_Parquet_Glue_Athena.ipynb)
+[HIDDEN] 3. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./wip/03_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
+[HIDDEN] 4. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./wip/04_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
 5. [Analyze the impact of prompt engineering using a HuggingFace model](./05_Generate_Text_Without_Fine_Tuning.ipynb)
 6. Perform feature engineering on a raw text dataset using HuggingFace
    1. [Option A: Notebook processing in SageMaker studio](./06_Prepare_Prompt_Dataset.ipynb)
