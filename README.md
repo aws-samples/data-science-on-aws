@@ -8,8 +8,8 @@ Distributed data processing
 ---------------------------
 In this workflow, we will use the [Amazon Customer Reviews Dataset](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) for labs related to data processing as it contains a very large corpus of ~150 million customer reviews. This is useful for showcasing SageMaker's distributed processing abilities which can be extended to many large datasets. 
 
-Fine-tuning FLAN-T5 Generative AI model
----------------------------------------
+Fine-tuning FLAN-T5 for summarizing conversation dialog 
+-------------------------------------------------------
 After the data processing sections, we will build our FLAN-T5 based NLP model using the [dialogsum](https://huggingface.co/datasets/knkarthick/dialogsum) dataset from HuggingFace which contains ~15k examples of dialogue with associated summarizations.
 
 ## Table of Contents
