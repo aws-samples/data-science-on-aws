@@ -14,11 +14,19 @@ After the data processing sections, we will build our FLAN-T5 based NLP model us
 
 ## Table of Contents
 
+Setup 
+-----
 0. [Lab overview](./00_Overview.ipynb)
 1. [Setup workshop dependencies](./01_Setup_Dependencies.ipynb)
+
+Distributed data processing
+---------------------------
 [HIDDEN] 2. [Register parquet data in S3 using AWS Glue and Amazon Athena](./wip/02_Register_Parquet_Glue_Athena.ipynb)
 [HIDDEN] 3. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./wip/03_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
 [HIDDEN] 4. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./wip/04_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
+
+Fine-tuning FLAN-T5 for summarizing conversation dialog 
+-------------------------------------------------------
 5. [Analyze the impact of prompt engineering using a HuggingFace model](./05_Generate_Text_Without_Fine_Tuning.ipynb)
 6. Perform feature engineering on a raw text dataset using HuggingFace
    1. [Option A: Notebook processing in SageMaker studio](./06_Prepare_Prompt_Dataset.ipynb)
