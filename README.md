@@ -43,6 +43,13 @@ This workshop is based on the O'Reilly Book, "Data Science on AWS", by Chris Fre
 
 [![Data Science on AWS](img/book_full_color_sm.png)](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
 
+## Related Links
+* Website: https://datascienceonaws.com
+* Meetup: https://meetup.datascienceonaws.com
+* GitHub Repo: https://github.com/data-science-on-aws/
+* YouTube: https://youtube.datascienceonaws.com
+* O'Reilly Book: https://www.amazon.com/dp/1492079391/
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
