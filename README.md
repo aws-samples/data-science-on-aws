@@ -36,7 +36,7 @@ Fine-tuning FLAN-T5 for summarizing conversation dialog
    2. [Option B: SageMaker Training Job](./07b_Supervised_Fine_Tune_Generative_Model_SageMaker_Cluster.ipynb)
 8. [Create an automated end-to-end ML MLOps workflow with SageMaker Pipelines](./08_Create_End_to_End_MLOps_Pipeline.ipynb)
 9. [Deploy a fine-tuned generative AI model to a real-time SageMaker Endpoint](./09_Approve_and_Deploy_Model.ipynb)
-10.[ Run inference on a SageMaker Endpoint in real time](./10_Generate_Text_With_Fine_Tuning.ipynb)
+10.[Run inference on a SageMaker Endpoint in real time](./10_Generate_Text_With_Fine_Tuning.ipynb)
 
 ## Security
 
