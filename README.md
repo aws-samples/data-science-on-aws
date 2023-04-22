@@ -38,6 +38,11 @@ Fine-tuning FLAN-T5 for summarizing conversation dialog
 9. [Deploy a fine-tuned generative AI model to a real-time SageMaker Endpoint](./09_Approve_and_Deploy_Model.ipynb)
 10.[Run inference on a SageMaker Endpoint in real time](./10_Generate_Text_With_Fine_Tuning.ipynb)
 
+## O'Reilly Book:  Data Science on AWS
+This workshop is based on the O'Reilly Book, "Data Science on AWS", by Chris Fregly and Antje Barth @ AWS.
+
+![Data Science on AWS](dsoaws_book_cover_sm.png)
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
