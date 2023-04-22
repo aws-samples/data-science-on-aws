@@ -41,7 +41,7 @@ Fine-tuning FLAN-T5 for summarizing conversation dialog
 ## O'Reilly Book:  Data Science on AWS
 This workshop is based on the O'Reilly Book, "Data Science on AWS", by Chris Fregly and Antje Barth @ AWS.
 
-[![Data Science on AWS](book_full_color_sm.png)](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
+[![Data Science on AWS](img/book_full_color_sm.png)](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
 
 ## Security
 
