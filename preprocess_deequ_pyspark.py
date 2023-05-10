@@ -120,8 +120,10 @@ def main():
         "sep", "\t"
     ).save("{}/constraint-suggestions".format(s3_output_analyze_data))
 
-
-#    spark.stop()
+    print("end of run reached")
+    spark.sparkContext._gateway.close()
+    spark.stop()
+    print("spark stopped")
 
 
 if __name__ == "__main__":
