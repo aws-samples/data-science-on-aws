@@ -21,9 +21,9 @@ Setup
 
 Distributed data processing
 ---------------------------
-[HIDDEN] 2. [Register parquet data in S3 using AWS Glue and Amazon Athena](./wip/02_Register_Parquet_Glue_Athena.ipynb)
-[HIDDEN] 3. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./wip/03_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
-[HIDDEN] 4. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./wip/04_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
+2. [Register parquet data in S3 using AWS Glue and Amazon Athena](./02_Register_Parquet_Glue_Athena.ipynb)
+3. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./03_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
+4. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./04_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
 
 Fine-tuning FLAN-T5 for summarizing conversation dialog 
 -------------------------------------------------------
