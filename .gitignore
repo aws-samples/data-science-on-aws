@@ -1,3 +1,7 @@
+amazon-reviews-spark-analyzer/
+wip/01_PEFT_Parameter_Efficient_Fine_Tuning/peft-dialogue-summary-checkpoint-from-s3/
+wip/01_PEFT_Parameter_Efficient_Fine_Tuning/peft-dialogue-summary-checkpoint-local/
+wip/02_RLHF_Reinforcement_Learning_with_Human_Feedback/peft-dialogue-summary-checkpoint-from-s3/
 ranking_reward_model_custom/
 diag-summary-training-results.csv
 .ipynb_checkpoints/
