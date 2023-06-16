@@ -14,29 +14,34 @@ After the data processing sections, we will build our FLAN-T5 based NLP model us
 
 ## Table of Contents
 
-Setup 
------
-0. [Lab overview](./00_Overview.ipynb)
-1. [Setup workshop dependencies](./01_Setup_Dependencies.ipynb)
+### Setup 
+* 00a. [Lab overview](./00a_Overview.ipynb)
+* 00b. [Setup workshop dependencies](./00b_Setup_Dependencies.ipynb)
 
-Distributed data processing
----------------------------
-2. [Register parquet data in S3 using AWS Glue and Amazon Athena](./02_Register_Parquet_Glue_Athena.ipynb)
-3. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./03_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
-4. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./04_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
+### PART 1: Distributed data processing
+* 01a. [Register parquet data in S3 using AWS Glue and Amazon Athena](./01a_Register_Parquet_Glue_Athena.ipynb)
+* 01b. [Visualize data with serverless distributed PySpark on SageMaker notebooks using Glue interactive sessions](./01b_Visualize_Reviews_Dataset_Glue_Spark.ipynb)
+* 01c. [Analyze data quality with distributed PySpark on SageMaker Processing Jobs](./01c_Analyze_Data_Quality_ProcessingJob_Spark.ipynb)
 
-Fine-tuning FLAN-T5 for summarizing conversation dialog 
--------------------------------------------------------
-5. [Analyze the impact of prompt engineering using a HuggingFace model](./05_Generate_Text_Without_Fine_Tuning.ipynb)
-6. Perform feature engineering on a raw text dataset using HuggingFace
-   1. [Option A: Notebook processing in SageMaker studio](./06_Prepare_Prompt_Dataset.ipynb)
-   2. [Option B: SageMaker Processing Job](./06b_Prepare_Prompt_Dataset_SageMaker_Cluster.ipynb)
-7. Fine-tune a HuggingFace model for dialogue summarization
-   1. [Option A: Jupyter notebook training in SageMaker studio](./07_Supervised_Fine_Tune_Generative_Model.ipynb)
-   2. [Option B: SageMaker Training Job](./07b_Supervised_Fine_Tune_Generative_Model_SageMaker_Cluster.ipynb)
-8. [Create an automated end-to-end ML MLOps workflow with SageMaker Pipelines](./08_Create_End_to_End_MLOps_Pipeline.ipynb)
-9. [Deploy a fine-tuned generative AI model to a real-time SageMaker Endpoint](./09_Approve_and_Deploy_Model.ipynb)
-10. [Run inference on a SageMaker Endpoint in real time](./10_Generate_Text_With_Fine_Tuning.ipynb)
+### PART 2: Fine-tuning FLAN-T5 for summarizing conversation dialog (SageMaker Studio Notebook)
+* 02a. [Analyze the impact of prompt engineering using a HuggingFace model](./02a_Generate_Text_Without_Fine_Tuning.ipynb)
+* 02b. [Perform feature engineering on a raw text dataset using HuggingFace (Studio Notebook)](./02b_Prepare_Prompt_Dataset.ipynb)
+* 02c. [Fine-tune a HuggingFace model for dialogue summarization (Studio Notebook)](./02c_Supervised_Fine_Tune_Generative_Model.ipynb)
+
+### PART 3: Fine-tuning FLAN-T5 for summarizing conversation dialog (SageMaker Cluster)
+* 03a. [Perform feature engineering on a raw text dataset using HuggingFace (SageMaker Processing Job)](./03a_Prepare_Prompt_Dataset_SageMaker_Cluster.ipynb)
+* 03b. [Fine-tune a HuggingFace model for dialogue summarization (SageMaker Training Job)](./03b_Supervised_Fine_Tune_Generative_Model_SageMaker_Cluster.ipynb)
+
+PART 4: Fine-tuning FLAN-T5 for summarizing conversation dialog (SageMaker Cluster)
+--------------------------------------------------------------------------------------
+* 04a. [Create an automated end-to-end ML MLOps workflow with SageMaker Pipelines](./04a_Create_End_to_End_MLOps_Pipeline.ipynb)
+* 04b. [Deploy a fine-tuned generative AI model to a real-time SageMaker Endpoint](./04b_Approve_and_Deploy_Model.ipynb)
+* 04c. [Run inference on a SageMaker Endpoint in real time](./04c_Generate_Text_with_Fine_Tuning.ipynb)
+
+PART 5: Advanced fine-tuning with PEFT and RLHF
+-----------------------------------------------
+* 05a. [Parameter-efficient fine-tuning with LoRA](./05a_LoRA_PEFT_Fine_Tune_Generative_AI_Model.ipynb)
+* 05b. [Fine-tuning for human alignment using reinforcement learning with human feedback (RLHF)](./05b_RLHF_Fine_Tune_Model_to_Detoxify_Summaries.ipynb)
 
 ## O'Reilly Book:  Data Science on AWS
 This workshop is based on the O'Reilly Book, "Data Science on AWS", by Chris Fregly and Antje Barth @ AWS.
