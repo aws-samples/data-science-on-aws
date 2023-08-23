@@ -1,0 +1,84 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "knkarthick--dialogsum",
+  "dataset_size": 13253718,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/knkarthick/dialogsum/resolve/4195720175f8ed5be2718db229b84daf4f4f8ce4/train.csv": {
+      "num_bytes": 11321474,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/knkarthick/dialogsum/resolve/4195720175f8ed5be2718db229b84daf4f4f8ce4/test.csv": {
+      "num_bytes": 1353147,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/knkarthick/dialogsum/resolve/4195720175f8ed5be2718db229b84daf4f4f8ce4/validation.csv": {
+      "num_bytes": 441935,
+      "checksum": null
+    }
+  },
+  "download_size": 13116556,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dialogue": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "topic": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "query": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "toxicity_score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 26370274,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 11439628,
+      "num_examples": 12460,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1367451,
+      "num_examples": 1500,
+      "dataset_name": "csv"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 446639,
+      "num_examples": 500,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
