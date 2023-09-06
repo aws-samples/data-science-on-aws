@@ -6,7 +6,7 @@ This workshop shows AWS users how to use Amazon SageMaker and other associated s
 
 Distributed data processing
 ---------------------------
-In this workflow, we will use the [Amazon Customer Reviews Dataset](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) for labs related to data processing as it contains a very large corpus of ~150 million customer reviews. This is useful for showcasing SageMaker's distributed processing abilities which can be extended to many large datasets. 
+In this workflow, we will use the [Amazon Customer Reviews Dataset](https://s3.amazonaws.com/dsoaws/amazon-reviews-pds/readme.html) for labs related to data processing as it contains a very large corpus of ~150 million customer reviews. This is useful for showcasing SageMaker's distributed processing abilities which can be extended to many large datasets. 
 
 Fine-tuning FLAN-T5 for summarizing conversation dialog 
 -------------------------------------------------------
