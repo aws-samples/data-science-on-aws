@@ -1,4 +1,4 @@
-# Data Science on AWS
+# Generative AI and Data Science on AWS
 
 ## Description
 
