@@ -48,7 +48,7 @@ After the data processing sections, we will build our FLAN-T5 based NLP model us
 * 05b. [Fine-tuning for human alignment using reinforcement learning with human feedback (RLHF)](./05b_RLHF_Fine_Tune_Model_to_Detoxify_Summaries.ipynb)
 
 ## O'Reilly Books: Generative AI on AWS and Data Science on AWS
-This workshop is based on the O'Reilly Books, "Generative AI on AWS" and "Data Science on AWS" by Chris Fregly, Antje Barth, and Shelbee Eigenbrode @ AWS.
+This workshop is based on the O'Reilly Books, "Generative AI on AWS" and "Data Science on AWS" by [Chris Fregly](https://linkedin.com/in/cfregly), [Antje Barth](https://www.linkedin.com/in/antje-barth/), and [Shelbee Eigenbrode](https://www.linkedin.com/in/shelbee-eigenbrode/) @ AWS.
 
 ### Generative AI on AWS
 [![Generative AI on AWS](img/gaia_book_cover.png)](https://www.amazon.com/Generative-AI-AWS-Multimodal-Applications/dp/1098159225/)
