@@ -47,29 +47,6 @@ After the data processing sections, we will build our FLAN-T5 based NLP model us
 * 05a. [Parameter-efficient fine-tuning with LoRA](./05a_LoRA_PEFT_Fine_Tune_Generative_AI_Model.ipynb)
 * 05b. [Fine-tuning for human alignment using reinforcement learning with human feedback (RLHF)](./05b_RLHF_Fine_Tune_Model_to_Detoxify_Summaries.ipynb)
 
-## O'Reilly Books: Generative AI on AWS and Data Science on AWS
-This workshop is based on the O'Reilly Books, "Generative AI on AWS" and "Data Science on AWS" by [Chris Fregly](https://linkedin.com/in/cfregly), [Antje Barth](https://www.linkedin.com/in/antje-barth/), and [Shelbee Eigenbrode](https://www.linkedin.com/in/shelbee-eigenbrode/) @ AWS.
-
-### Generative AI on AWS
-[![Generative AI on AWS](img/gaia_book_cover.png)](https://www.amazon.com/Generative-AI-AWS-Multimodal-Applications/dp/1098159225/)
-
-#### Related Links
-* Website: https://generativeaionaws.com
-* Meetup: https://meetup.generativeaionaws.com
-* GitHub Repo: https://github.com/generative-ai-on-aws/
-* YouTube: https://youtube.generativeaionaws.com
-* O'Reilly Book: https://www.amazon.com/Generative-AI-AWS-Multimodal-Applications/dp/1098159225/
-
-### Data Science on AWS
-[![Data Science on AWS](img/book_full_color_sm.png)](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
-
-#### Related Links
-* Website: https://datascienceonaws.com
-* Meetup: https://meetup.datascienceonaws.com
-* GitHub Repo: https://github.com/data-science-on-aws/
-* YouTube: https://youtube.datascienceonaws.com
-* O'Reilly Book: https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/
-
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
